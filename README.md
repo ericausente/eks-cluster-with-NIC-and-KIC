@@ -47,7 +47,7 @@ Install eksctl: Use Homebrew to install eksctl on your MacBook by running the fo
 ```
 % brew install eksctl
 ```
-Create an EKS cluster: Use the eksctl create cluster command to create an EKS cluster. Replace k8s-cluster-idfc with a name for your cluster, and ap-southeast-1 with the region where you want to create the cluster. You can also adjust the number of worker nodes by changing the --nodes parameter.
+Create an EKS cluster: Use the eksctl create cluster command to create an EKS cluster. Replace k8s-cluster-eric with a name for your cluster, and ap-southeast-1 with the region where you want to create the cluster. You can also adjust the number of worker nodes by changing the --nodes parameter.
 
 ```
 eksctl create cluster \
