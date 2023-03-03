@@ -1,11 +1,4 @@
-# sources 
-https://www.youtube.com/watch?v=rJQb_whepEY
-https://seed-platform.org/code_documentation/2.15.1/kubernetes_deployment.html
 
-
-brew install aws-cli
-aws --version
-aws configure
 
 # eks-cluster
 
@@ -14,6 +7,12 @@ aws configure
 3. Create an Amazon EKS cluster: You can create an EKS cluster using the AWS Management Console, AWS CLI, or an infrastructure-as-code tool like Terraform. During the creation process, you will need to specify the cluster name, region, VPC, and other configuration details.
 
 In my case I have configured using AWS CLI credentials on my MacBook. 
+
+```
+brew install aws-cli
+aws --version
+```
+
 The ~/.aws directory contains my  AWS configuration and credentials files, which are used by the AWS CLI to authenticate and authorize your requests to AWS services.
 
 The config file contains my  AWS CLI configuration settings, such as the default region and output format. The credentials file contains my AWS access key ID and secret access key (and token), which are used to authenticate your requests to AWS services.
