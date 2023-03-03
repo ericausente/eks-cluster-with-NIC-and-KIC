@@ -18,7 +18,8 @@ The ~/.aws directory contains my  AWS configuration and credentials files, which
 The config file contains my  AWS CLI configuration settings, such as the default region and output format. The credentials file contains my AWS access key ID and secret access key (and token), which are used to authenticate your requests to AWS services.
 
 By running the 
-```aws configure
+```
+aws configure
 ````
 command, you can set up your AWS CLI credentials and configure your AWS CLI settings, including your default region, output format, and more.
 
