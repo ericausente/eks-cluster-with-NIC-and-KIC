@@ -150,7 +150,6 @@ I think let's follow this:
 https://docs.primehub.io/docs/3.7/getting_started/kubernetes_on_eks
 
 
-Don't forget 
 
 ```
 ### To create an Ingress Controller on Amazon Elastic Kubernetes Service (EKS), you can follow these steps:
@@ -162,6 +161,9 @@ Install and configure the AWS CLI: The AWS CLI is a command-line tool that you u
 
 That's it! You have now created an Ingress Controller on your EKS cluster using NGINX. You can now configure the Ingress Controller to route traffic to your applications running on the cluster.
 ```
+Don't forget 
 
 !!!
 Metrics Server - show them the resourece usage between the KIC and NIC, as the former uses lua in their configuration
+Ingress Class 
+Check if they automated cert renewal operation (annotations - inspect this) 
