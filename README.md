@@ -67,11 +67,10 @@ See the sample logs in logs.md file.
   
 Update the kubeconfig file: Use the AWS CLI to update the kubeconfig file for your EKS cluster. Replace k8s-cluster-eric with the name of your cluster.
 
-
   ```
   % aws eks update-kubeconfig --name k8s-cluster-eric
 Added new context arn:aws:eks:ap-southeast-1:150380270330:cluster/k8s-cluster-eric to /Users/e.ausente/.kube/config
-  ``
+  ```
   
 Install kubectl: Use Homebrew to install kubectl on your MacBook by running the following command in your terminal:
 ```
