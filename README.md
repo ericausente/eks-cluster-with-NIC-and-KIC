@@ -65,7 +65,7 @@ View the CloudFormation logs: After running the eksctl command, it will create t
 See the sample logs in logs.md file. 
   
   
-Update the kubeconfig file: Use the AWS CLI to update the kubeconfig file for your EKS cluster. Replace k8s-cluster-idfc with the name of your cluster.
+Update the kubeconfig file: Use the AWS CLI to update the kubeconfig file for your EKS cluster. Replace k8s-cluster-eric with the name of your cluster.
 
 
   ```
