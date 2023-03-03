@@ -1,3 +1,4 @@
+```
 e.ausente@C02DR4L1MD6M .aws % eksctl create cluster
 2023-03-03 10:21:00 [ℹ]  eksctl version 0.132.0-dev+15bffbb0d.2023-03-01T18:38:02Z
 2023-03-03 10:21:00 [ℹ]  using region ap-southeast-1
@@ -85,3 +86,4 @@ e.ausente@C02DR4L1MD6M .aws % eksctl create cluster \
 2023-03-03 10:38:13 [✖]  kubectl not found, v1.10.0 or newer is required
 2023-03-03 10:38:13 [ℹ]  cluster should be functional despite missing (or misconfigured) client binaries
 2023-03-03 10:38:13 [✔]  EKS cluster "k8s-cluster-idfc" in "ap-southeast-1" region is ready
+```
