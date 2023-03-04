@@ -1,4 +1,4 @@
-# eks-cluster with NGINX Plus based NGINX Ingress Controller and Ingress Controller (which is the Open-Source Project on GitHub under Kubernetes umbrella project)
+# eks-cluster with NGINX Kubernetes Ingress Controller (Kubernetes project) and NGINX Plus Ingress Controller (from NGINX)
 
 1. Plan your cluster architecture: Before you create an EKS cluster, you need to plan the architecture of your cluster. This includes deciding on the number and types of nodes, selecting the instance types, and designing your networking and security configuration.
 2. Create a Virtual Private Cloud (VPC): EKS requires a VPC to be created for the cluster. You can create a new VPC for the cluster or use an existing one. If you create a new VPC, you will need to configure the subnets, routing tables, and security groups.
